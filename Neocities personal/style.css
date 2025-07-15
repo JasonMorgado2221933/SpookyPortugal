@@ -1,0 +1,52 @@
+  body{
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+  }
+  
+  /*star filled background*/
+  #background {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background-image: url(/images/bg.png);
+    background-repeat: repeat;
+  }
+
+  /*main purple container*/
+  #main{
+    display: flex;
+    flex-direction: column;
+    /*margin: 5% 0px 5% 0px;*/
+    width: 50%;
+    height: 2000px;
+    background-color: rgb(80, 64, 87);
+    border-radius: 10px;
+    padding: 0% 5% 0% 5%;
+  }
+
+  /* image and name*/
+  #header{
+    display: flex;
+    /*border: 2px aqua solid;*/
+    justify-content: start;
+    margin-top: 5% ;
+  }
+
+  #moth {
+    max-height:300px ;
+  }
+
+  /*Navigaton menu*/
+
+  #nav {
+    display: flex;
+    justify-content: center;
+    background-color: red;
+    height: fit-content;
+  }
+
+  #socials {
+    background-color: rebeccapurple;
+  }
